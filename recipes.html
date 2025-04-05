@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian-Inspired Meal Ideas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        section {
+            margin: 2rem;
+            background-color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        ol {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            font-size: 1.1rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.5rem 0;
+        }
+        .recipe-content {
+            display: none;
+            margin-left: 1.5rem;
+            font-size: 1rem;
+            color: #333;
+        }
+        .chevron-button {
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 1.2rem;
+            transition: transform 0.3s ease;
+        }
+        .chevron-button.rotated {
+            transform: rotate(180deg);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Indian-Inspired Meal Ideas</h1>
+    </header>
+    <button onclick="location.href='index.html'">home</button>
+
+    <section>
+        <h2>Classic & Comfort Breakfasts</h2>
+        <ol>
+        <li>
+            Aloo Paratha with Curd & Pickle
+            <button class="chevron-button" onclick="toggleRecipe(this)">▼</button>
+        </li>
+            <div class="recipe-content">Recipe details for Aloo Paratha...</div>
+        <li>Masala Dosa with Sambar & Chutney
+            <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button>
+        </li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+        <li>Poha
+            <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button>
+        </li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+        <li>Upma
+            <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button>
+        </li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+        <li>Idli with Sambar & Coconut Chutney
+            <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button>
+        </li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+    </ol>
+    
+    </section>
+    <section>
+        <h2>Healthy & Nutritious Options</h2>
+    <ol>
+        <li>Ragi Dosa
+            
+            <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+        <li>Moong Dal Chilla
+            
+            <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+        <li>Oats Upma
+            
+            <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+        <li>Sprouts Salad
+            
+            <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+        <li>Vegetable Daliya
+            
+            <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+        <li>Methi Thepla
+            
+            <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+        <li>Steamed Dhokla
+            
+            <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+        <li>Besan Chilla
+            
+            <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+        <li>Millet Idli
+            
+            <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+        <li>Vegetable Raita
+            <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+    </ol>
+    
+    </section>    
+    <section>
+        <h2>International Breakfasts with an Indian Twist</h2>
+    <ol>
+        <li>Masala Cheese Omelette with Roti
+            <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+        <li>Spiced Avocado Toast on Multigrain Bread
+            <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+        <li>Indian-style Pancakes (Besan Pancakes)
+            <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+        <li>Quinoa Upma
+            <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+        <li>Spiced Scrambled Eggs (Egg Bhurji)
+            <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+        <li>Desi-style French Toast
+            <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+        <li>Spinach & Paneer Smoothie
+            <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+        <li>Mango Yogurt Parfait with Nuts
+            <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+        <li>Masala Oats with Vegetables
+            <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+        <li>Tandoori Grilled Sandwich
+            <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+    </ol>
+    
+    </section>
+    <section>
+        <h2>Fun & Unique Twists</h2>
+        <ol>
+            <li>Pizza Paratha
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Ingredients:
+    
+                </div>
+        </li>
+            <li>Chocolate & Dry Fruit Dosa
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Ingredients:
+    </div>
+        </li>
+            <li>Masala Maggi with Vegetables
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Ingredients:
+    
+    </div>
+        </li>
+            <li>Bread Pakora with Cheese Filling
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Ingredients:
+    </div>
+        </li>
+            <li>Spicy Paneer Wrap
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Ingredients:
+    </div>
+        </li>
+            <li>Aloo Tikki Sandwich
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Ingredients:
+    </div>
+        </li>
+            <li>Desi Tacos (Roti filled with Spiced Paneer)
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Ingredients:
+    </div>
+        </li>
+            <li>Moong Dal Waffles
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Ingredients:
+    
+                </div>
+        </li>
+            <li>Cheesy Makhani Pasta
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Ingredients:
+    </div>
+        </li>
+            <li>Beetroot Poha
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Ingredients:
+    </div>
+        </li>
+        </ol>
+        </section>
+    <section>
+        <h2>Quick & Easy Desserts</h2>
+        <ol>
+            <li>Sooji Halwa
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+            <li>Coconut Ladoo
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+            <li>Fruit Custard
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+            <li>Bread Gulab Jamun
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+            <li>Chocolate Barfi 
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+        </ol>
+    </section>
+    
+    <section>
+        <h2>Healthy Treats</h2>
+        <ol>
+            <li>Ragi Ladoo
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+            <li>Oats and Dates Barfi
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+            <li>Makhana Chaat
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+            <li>Chia Coconut Pudding
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+            <li>Flaxseed and Sesame Ladoo
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+        </ol>
+    </section>
+    
+    <section>
+        <h2>Classic Favorites</h2>
+        <ol>
+            <li>Besan Ladoo
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+            <li>Peda
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+            <li>Malpua
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+            <li>Gajar Halwa
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+            <li>Sandesh
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+        </ol>
+    </section>
+    
+    <section>
+        <h2>Kid-Friendly Treats</h2>
+        <ol>
+            <li>Oats and Honey Energy Bars 
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+            <li>Milk Peda
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+            <li>Carrot and Dates Muffins
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+            <li>Baked Atta Cookies 
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+            <li>Stuffed Apple Kheer 
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+        </ol>
+    </section>
+    
+    <section>
+        <h2>Seasonal & Holiday Treats</h2>
+        <ol>
+            <li>Coconut Modak 
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+            <li>Christmas Plum Cake (Eggless) 
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+            <li>Diwali Kaju Roll 
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+            <li>Navratri Falahari Kheer 
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+            <li>Eid Sheer Khurma 
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+        </ol>
+    </section>
+    
+    <section>
+        <h2>Refreshing Drinks</h2>
+        <ol>
+            <li>Nimbu Pani 
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+            <li>Aam Panna 
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+            <li>Jaljeera 
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+            <li>Sattu Drink 
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+            <li>Masala Buttermilk 
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+        </ol>
+    </section>
+    
+    <section>
+        <h2>Hot Beverages</h2>
+        <ol>
+            <li>Masala Chai 
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+            <li>Turmeric Milk (Haldi Doodh) 
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+            <li>Filter Coffee 
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+            <li>Kahwa 
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+            <li>Adrak Tulsi Tea 
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+        </ol>
+    </section>
+    
+    <section>
+        <h2>Healthy & Functional Drinks</h2>
+        <ol>
+            <li>Gooseberry (Amla) Juice 
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+            <li>Pomegranate Lassi 
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+            <li>Dates & Almond Milkshake 
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+            <li>Turmeric Ginger Detox Water 
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+            <li>Flaxseed Smoothie 
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+        </ol>
+    </section>
+    
+    <section>
+        <h2>Cocktails & Mocktails</h2>
+        <ol>
+            <li>Mango Mojito 
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+            <li>Kokum Cooler 
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+            <li>Tamarind Margarita 
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+            <li>Rose Basil Fizz 
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+            <li>Masala Whiskey Sour 
+                <button class= "chevron-button" onclick="toggleRecipe(this)">▼</button></li>
+            <div class="recipe-content">Recipe details for Masala Dosa...</div>
+        </ol>
+    </section>
+    <footer>
+        <p>&copy; 2025 Indian Meal Ideas</p>
+    </footer>
+        <p>&copy; 2025 Indian Meal Ideas</p>
+    </footer>
+
+    <script>
+        function toggleRecipe(button) {
+            var recipeContent = button.parentElement.nextElementSibling;
+            if (recipeContent.style.display === "block") {
+                recipeContent.style.display = "none";
+                button.classList.remove("rotated");
+            } else {
+                recipeContent.style.display = "block";
+                button.classList.add("rotated");
+            }
+        }
+    </script>
+</body>
+</html>
